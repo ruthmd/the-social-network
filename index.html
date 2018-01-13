@@ -1,0 +1,59 @@
+<html>
+<head charset="utf-8">
+    <title>TSN</title>
+    <link rel="shortcut icon" href="assets/images/logo2.svg" />
+    <link rel="stylesheet" type="text/css" href="assets/css/stylex.css">
+</head>
+
+<body>
+    <div id="main">
+    <div>
+        <div class="im1"></div>
+        <div id="im1q">
+            “Life is like a camera. Just focus on what’s important and capture the good times, develop from the negatives and if things don’t work out, take another shot.”
+        </div>
+        <div class="im2"></div>
+        <div id="im2q">
+            “It’s weird that photographers spend years or even a whole lifetime, trying to capture moments that added together, don’t even amount to a couple of hours.”
+        </div>
+        <div class="im3"></div>
+        <div id="im3q">
+            “The camera is an excuse to be someplace you otherwise don’t belong. It gives me both a point of connection and a point of separation.”
+        </div>
+        <div class="im4"></div>
+    </div>
+    <div class="sb">
+        <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+    <div class="menu" onclick="openNav()">
+        <div class="br"></div>
+        <div class="br"></div>
+        <div class="br"></div>
+    </div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="pages/login.html">Log in</a>
+  <a href="pages/signup.html">Sign up</a>
+  <a href="pages/contacts/contacts.html">Write to us</a>
+</div>
+<footer>
+    &copy; Copyright 2016 The Social Network<br>
+    All rights reserved
+</footer>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

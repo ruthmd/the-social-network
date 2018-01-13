@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: #E1F5FE;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1F254D;
+}
+
+li {
+    float: right;
+}
+
+li a,.hi {
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.8em;
+}
+
+.hi{
+    float: left;
+    color: #25FFC9;
+}
+li form button{
+    outline: none;
+    display: block;
+    border: 0;
+    background-color: #545CA2 ;
+    border-radius: 16px;
+    padding: 4px 16px 4px 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    cursor:pointer;
+    color: #25FFC9;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+li a:hover {
+    background-color: #4D96E9 ;
+}
+
+/*upload form*/
+
+#picu {
+    border: solid 3px #7C8CED;
+    background-color: #1F2541;
+    color: #25FFC9;
+    margin-top:4px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 8px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+#picu div{
+    margin: 4px;
+
+}
+#picu div input, textarea{
+    outline:none;
+}
+
+#picu div textarea {
+    border-radius: 4px;
+    padding-left : 8px;
+    padding-right: 8px;
+}
+
+.bt{
+    border-radius: 4px;
+    color: #25FFC9;
+    background-color: #1F2541;
+    padding: 4px 4px;
+}
+
+/*profile-post*/
+#post{
+    /*border:solid 3px #7C8CED;*/
+    border-radius: 8px;
+    padding: 8px;
+    /*margin-top: 16px;
+    margin-bottom: 16px;*/
+}
+
+#img_div p{
+    color: #1F2541;
+    font-size: 1.3em;
+}
+#img_div img{
+    border-radius: 8px;
+    /*height: 800px;
+    width: 500px;*/
+}
+
+#l,#d{
+    height: 7%;
+    width: 7%;
+    margin:auto;
+    margin-top:10px;
+}
+/*#l{
+    float: left;
+}
+#d{
+    float: right;
+}*/

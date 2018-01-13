@@ -1,0 +1,121 @@
+
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	font-size: 110%;
+	color:#FFC200;
+	background-color: #FAFAFA;
+}
+a{
+	text-decoration: none;
+}
+.pos{
+	    font-family:  monospace;
+
+
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	font-size:3.5em;
+	color:#FFC200;
+/*	text-shadow: 5px 5px 10px black;*/
+
+}
+.icon{
+	height: 140px;
+	width: 70px;
+}
+ul{
+	list-style-type: none;
+    margin: 10px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+span{
+	color:red;
+}
+li {
+
+    padding: 110px;
+	float: left;
+
+}
+#loc{
+	text-align: center;
+	background-color: #002C53;
+/*	width: 50%;*/
+}
+#hov{
+	color: #002C53;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+footer{
+    font-family: monospace;
+    padding: 16px;
+    background-color: #1F2541;
+    font-size:1.5em;
+    color: #25FFC9;
+
+}
+
+form {
+    border: solid 1px black;
+    background-color: #424242;
+    color: #FFC107;
+
+    padding: 10px 20px 10px 13px;
+    border-radius: 1px;
+
+
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+form input[type=submit]:hover{
+    background-color: #E0E0E0;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 32px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 1.0em;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
